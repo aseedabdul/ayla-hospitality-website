@@ -19,16 +19,16 @@ export default function SectionHeading({
       transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
     >
       {eyebrow && (
-        <span className="text-[11px] tracking-[0.28em] uppercase text-gold-deep font-semibold">
+        <span className="text-[11px] tracking-[0.28em] uppercase text-[#dfff00] font-semibold">
           {eyebrow}
         </span>
       )}
-      <h2 className="font-display text-4xl md:text-5xl lg:text-[3.4rem] leading-[1.05] text-ink text-balance">
+      <h2 className="font-display text-4xl md:text-5xl lg:text-[3.4rem] leading-[1.05] text-white text-balance">
         {title}
       </h2>
       <GoldThread />
       {description && (
-        <p className="max-w-xl text-ink-soft/80 text-[15px] md:text-base leading-relaxed">
+        <p className="max-w-xl text-white/70 text-[15px] md:text-base leading-relaxed">
           {description}
         </p>
       )}

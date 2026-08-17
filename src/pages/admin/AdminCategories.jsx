@@ -61,7 +61,7 @@ export default function AdminCategories() {
           ...form,
           image:
             form.image ||
-            `https://loremflickr.com/900/1100/${encodeURIComponent(form.name)}?lock=${Math.floor(Math.random() * 999)}`,
+            "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
         });
       }
       setModalOpen(false);

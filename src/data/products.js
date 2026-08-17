@@ -1,6 +1,3 @@
-// Centralized product data (mock). Replace with API data once the backend is connected.
-// Each product intentionally mirrors the shape a real backend response would take.
-
 export const products = [
   {
     id: "p-001",
@@ -12,7 +9,8 @@ export const products = [
     currency: "$",
     description:
       "A refined travel set with toothbrush, paste, razor and comb, packaged in a reusable linen pouch.",
-    image: "https://loremflickr.com/700/700/toiletry,travel,kit?lock=201",
+    image:
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
     available: true,
     tag: "Bestseller",
   },
@@ -25,7 +23,8 @@ export const products = [
     price: 32.0,
     currency: "$",
     description: "Compact all-in-one adapter with dual USB-C ports for worldwide compatibility.",
-    image: "https://loremflickr.com/700/700/travel,adapter,plug?lock=202",
+    image:
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -37,7 +36,8 @@ export const products = [
     price: 58.0,
     currency: "$",
     description: "Soft, foldable throw for long journeys, finished with a satin trim.",
-    image: "https://loremflickr.com/700/700/blanket,cashmere,cozy?lock=203",
+    image:
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -49,7 +49,8 @@ export const products = [
     price: 4.5,
     currency: "$",
     description: "Naturally sourced sparkling water with a delicate, clean mineral finish.",
-    image: "https://loremflickr.com/700/700/sparkling,water,bottle?lock=204",
+    image:
+      "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -61,7 +62,8 @@ export const products = [
     price: 9.0,
     currency: "$",
     description: "Oats, toasted nuts and wild honey, slow-baked in small batches.",
-    image: "https://loremflickr.com/700/700/granola,breakfast,jar?lock=205",
+    image:
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
     available: true,
     tag: "New",
   },
@@ -74,7 +76,8 @@ export const products = [
     price: 14.0,
     currency: "$",
     description: "Medium roast beans with notes of caramel and stone fruit.",
-    image: "https://loremflickr.com/700/700/coffee,beans,bag?lock=206",
+    image:
+      "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80",
     available: false,
   },
   {
@@ -86,7 +89,8 @@ export const products = [
     price: 6.5,
     currency: "$",
     description: "Fast-acting relief for headaches and minor aches, non-drowsy formula.",
-    image: "https://loremflickr.com/700/700/medicine,tablets,pharmacy?lock=207",
+    image:
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -98,7 +102,8 @@ export const products = [
     price: 12.0,
     currency: "$",
     description: "Precise, fast-read digital thermometer with a soft-touch tip.",
-    image: "https://loremflickr.com/700/700/thermometer,medical,device?lock=208",
+    image:
+      "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -110,7 +115,8 @@ export const products = [
     price: 8.0,
     currency: "$",
     description: "Balanced electrolyte blend to restore hydration after travel.",
-    image: "https://loremflickr.com/700/700/electrolyte,wellness,health?lock=209",
+    image:
+      "https://images.unsplash.com/photo-1607619056574-7b8d0c09d1d2?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -122,7 +128,8 @@ export const products = [
     price: 38.0,
     currency: "$",
     description: "Lightweight hyaluronic serum for a refreshed, dewy finish.",
-    image: "https://loremflickr.com/700/700/serum,skincare,bottle?lock=210",
+    image:
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80",
     available: true,
     tag: "Bestseller",
   },
@@ -135,7 +142,8 @@ export const products = [
     price: 22.0,
     currency: "$",
     description: "Long-wear matte lipstick in a rich, versatile rose tone.",
-    image: "https://loremflickr.com/700/700/lipstick,cosmetics,beauty?lock=211",
+    image:
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -147,7 +155,8 @@ export const products = [
     price: 29.0,
     currency: "$",
     description: "Melts away makeup and impurities while nourishing the skin barrier.",
-    image: "https://loremflickr.com/700/700/cleansing,balm,skincare?lock=212",
+    image:
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -159,7 +168,8 @@ export const products = [
     price: 16.0,
     currency: "$",
     description: "Wagyu beef patty, truffle butter and aged cheddar on a brioche bun.",
-    image: "https://loremflickr.com/700/700/gourmet,burger,truffle?lock=213",
+    image:
+      "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
     available: true,
     tag: "Popular",
   },
@@ -172,7 +182,8 @@ export const products = [
     price: 18.0,
     currency: "$",
     description: "San Marzano tomato, fior di latte and basil on a charred thin crust.",
-    image: "https://loremflickr.com/700/700/pizza,margherita,woodfired?lock=214",
+    image:
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -184,7 +195,8 @@ export const products = [
     price: 14.0,
     currency: "$",
     description: "Triple-stacked club with roasted chicken, smoked bacon and herb aioli.",
-    image: "https://loremflickr.com/700/700/club,sandwich,platter?lock=215",
+    image:
+      "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
   {
@@ -196,7 +208,8 @@ export const products = [
     price: 19.0,
     currency: "$",
     description: "Mulberry silk sleep mask paired with soft-foam earplugs for restful travel.",
-    image: "https://loremflickr.com/700/700/silk,sleepmask,travel?lock=216",
+    image:
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80",
     available: true,
   },
 ];

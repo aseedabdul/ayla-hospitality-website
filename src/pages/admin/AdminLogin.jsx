@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, Navigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Lock, Mail, ShieldCheck, Sparkles } from "lucide-react";
-import logo from "../../assets/images/ayla-logo.jpeg";
+const logo = "/images/ayla-hospitality-logo.png";
 import { useAuth } from "../../context/AuthContext";
 
 export default function AdminLogin() {

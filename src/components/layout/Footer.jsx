@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/ayla-logo.jpeg";
+const logo = "/images/ayla-hospitality-logo.png";
 import { categories } from "../../data/categories";
 import GoldThread from "../ui/GoldThread";
 

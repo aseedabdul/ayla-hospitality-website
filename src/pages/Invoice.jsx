@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { Printer, ArrowLeft } from "lucide-react";
 import { useOrders } from "../context/OrdersContext";
-import logo from "../assets/images/ayla-logo.jpeg";
+const logo = "/images/ayla-hospitality-logo.png";
 import StatusPill from "../components/ui/StatusPill";
 import EmptyState from "../components/ui/EmptyState";
 import { PackageX } from "lucide-react";

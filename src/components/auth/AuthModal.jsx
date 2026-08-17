@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Mail, Lock, User, Phone, MapPin, Sparkles } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
-import logo from "../../assets/images/ayla-logo.jpeg";
+const logo = "/images/ayla-hospitality-logo.png";
 
 export default function AuthModal() {
   const { isAuthModalOpen, setAuthModalOpen, login, register, isAuthenticated, logout, profile } =

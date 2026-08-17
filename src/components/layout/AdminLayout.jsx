@@ -7,7 +7,7 @@ import {
   BarChart3,
   LogOut,
 } from "lucide-react";
-import logo from "../../assets/images/ayla-logo.jpeg";
+const logo = "/images/ayla-hospitality-logo.png";
 import { useAuth } from "../../context/AuthContext";
 
 const navItems = [

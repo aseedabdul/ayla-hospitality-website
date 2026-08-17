@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { motion } from "framer-motion";
 import { productService } from "../../services/productService";
-import { products as fallbackProducts, getFeaturedProducts } from "../../data/products";
+import { products as fallbackProducts } from "../../data/products";
 import { categories as fallbackCategories } from "../../data/categories";
 import ProductCard from "../ui/ProductCard";
 import SectionHeading from "../ui/SectionHeading";
@@ -43,7 +43,7 @@ export default function FeaturedProducts() {
   }, [activeFilter, productsList]);
 
   return (
-    <section id="featured" className="relative py-24 md:py-32 bg-ivory-deep/40">
+    <section id="featured" className="relative py-24 md:py-32 bg-[#070707]">
       <div className="max-w-[1400px] mx-auto px-5 md:px-10">
         <SectionHeading
           eyebrow="Handpicked For You"
@@ -58,8 +58,8 @@ export default function FeaturedProducts() {
               onClick={() => setActiveFilter(f.id)}
               className={`px-5 py-2.5 rounded-full text-[12px] tracking-[0.06em] uppercase transition-all duration-300 border ${
                 activeFilter === f.id
-                  ? "bg-ink text-ivory border-ink"
-                  : "bg-transparent text-ink-soft border-ink/15 hover:border-gold"
+                  ? "bg-[#dfff00] text-black border-[#dfff00]"
+                  : "bg-transparent text-white/80 border-white/15 hover:border-[#dfff00]/80 hover:text-[#dfff00]"
               }`}
             >
               {f.name}

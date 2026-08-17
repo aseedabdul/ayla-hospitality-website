@@ -89,7 +89,7 @@ export default function AdminProducts() {
       currency: form.currency || "$",
       image:
         form.image ||
-        "https://loremflickr.com/700/700/product?lock=" + Math.floor(Math.random() * 999),
+        "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
     };
 
     try {
