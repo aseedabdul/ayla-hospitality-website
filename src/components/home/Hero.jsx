@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, Leaf, ShieldCheck, Coffee, Bath, Boxes, Gem } from "lucide-react";
 import Button from "../ui/Button";
+import referenceImage from "../../../reference/ayla-hero-reference.png";
 
 const ease = [0.22, 1, 0.36, 1];
 
@@ -69,29 +70,15 @@ export default function Hero() {
             <div className="absolute left-8 top-10 h-28 w-28 rounded-full bg-[#E6C766]/10 blur-3xl" />
             <div className="absolute bottom-4 right-6 h-40 w-40 rounded-full bg-[#E6C766]/8 blur-3xl" />
 
-            <div className="relative h-[420px] w-full max-w-[560px]">
-              <div className="absolute left-1/2 top-16 h-44 w-52 -translate-x-1/2 rounded-[34px] border border-[#D4AF37]/20 bg-[radial-gradient(circle_at_50%_25%,_rgba(255,255,255,0.24),_rgba(12,12,12,0.85)_30%,_rgba(8,8,8,1)_60%)] shadow-[0_28px_55px_rgba(0,0,0,0.6)]" style={{ transform: "perspective(1200px) rotateX(12deg) rotateY(-9deg)" }} />
-
-              <div className="absolute left-[18%] top-[98px] h-[178px] w-[74px] rounded-[22px] border border-[#D4AF37]/20 bg-[linear-gradient(180deg,#121212,#050505)] shadow-[0_18px_32px_rgba(0,0,0,0.55)]" style={{ transform: "rotate(-18deg)" }} />
-              <div className="absolute left-[18%] top-[122px] h-[150px] w-[64px] rounded-[18px] border border-[#D4AF37]/15 bg-[linear-gradient(180deg,#1a1a1a,#0a0a0a)]" style={{ transform: "rotate(-18deg)" }} />
-              <div className="absolute left-[22%] top-[110px] h-14 w-16 rounded-full bg-[#D4AF37]/25 blur-xl" style={{ transform: "rotate(-18deg)" }} />
-
-              <div className="absolute right-[18%] top-[128px] h-[182px] w-[94px] rounded-[18px] border border-[#D4AF37]/20 bg-[linear-gradient(180deg,#262626,#0d0d0d)] shadow-[0_18px_32px_rgba(0,0,0,0.5)]" style={{ transform: "rotate(18deg)" }} />
-              <div className="absolute right-[22%] top-[144px] h-[126px] w-[80px] rounded-[14px] border border-[#D4AF37]/15 bg-[linear-gradient(180deg,#1e1e1e,#090909)]" style={{ transform: "rotate(18deg)" }} />
-
-              <div className="absolute left-[40%] top-[160px] h-[126px] w-[110px] rounded-[22px] border border-[#D4AF37]/18 bg-[linear-gradient(180deg,#1c1c1c,#090909)] shadow-[0_18px_28px_rgba(0,0,0,0.55)]" style={{ transform: "rotate(-7deg)" }} />
-              <div className="absolute left-[43%] top-[176px] h-[90px] w-[68px] rounded-[12px] border border-[#D4AF37]/12 bg-[linear-gradient(180deg,#121212,#080808)]" style={{ transform: "rotate(-7deg)" }} />
-
-              <div className="absolute left-[54%] top-[136px] h-[42px] w-[118px] rounded-[22px] border border-[#D4AF37]/18 bg-[linear-gradient(180deg,#111111,#050505)] shadow-[0_16px_28px_rgba(0,0,0,0.5)]" style={{ transform: "rotate(11deg)" }} />
-              <div className="absolute left-[57%] top-[172px] h-[24px] w-[112px] rounded-[14px] border border-[#D4AF37]/18 bg-[linear-gradient(180deg,#171717,#080808)]" style={{ transform: "rotate(11deg)" }} />
-
-              <div className="absolute left-[31%] bottom-[0] h-[108px] w-[270px] rounded-[40px] border border-[#D4AF37]/20 bg-[radial-gradient(circle_at_50%_25%,_rgba(255,255,255,0.2),_rgba(28,28,28,0.9)_30%,_rgba(8,8,8,1)_70%)] shadow-[0_28px_55px_rgba(0,0,0,0.62)]" style={{ transform: "rotate(-3deg)" }} />
-
-              <div className="absolute left-[34%] bottom-[28px] h-[72px] w-[172px] rounded-[24px] bg-[linear-gradient(180deg,#f2efe8,#d7d0c5)] shadow-[0_14px_22px_rgba(0,0,0,0.3)]" style={{ transform: "rotate(-4deg)" }} />
-              <div className="absolute left-[31%] bottom-[36px] h-[40px] w-[170px] rounded-[20px] bg-[linear-gradient(180deg,#f8f4ef,#eae3d8)] opacity-95" style={{ transform: "rotate(-4deg)" }} />
-              <div className="absolute left-[53%] bottom-[30px] h-[70px] w-[54px] rounded-[18px] bg-[linear-gradient(180deg,#f2efe8,#d7d0c5)] shadow-[0_8px_18px_rgba(0,0,0,0.2)]" style={{ transform: "rotate(-8deg)" }} />
-
-              <div className="absolute left-[48%] bottom-[102px] h-[66px] w-[90px] rounded-[24px] border border-[#D4AF37]/12 bg-[linear-gradient(180deg,#0d0d0d,#000000)] shadow-[0_18px_28px_rgba(0,0,0,0.45)]" style={{ transform: "rotate(-5deg)" }} />
+            <div className="relative w-full max-w-[560px]">
+              <div className="overflow-hidden rounded-[30px] border border-[#D4AF37]/20 bg-black/20 p-2 shadow-[0_28px_55px_rgba(0,0,0,0.6)]">
+                <img
+                  src={referenceImage}
+                  alt="Premium hospitality guest amenities"
+                  className="block h-[280px] w-full object-contain object-center sm:h-[340px] lg:h-[420px]"
+                  loading="eager"
+                />
+              </div>
             </div>
           </motion.div>
 
