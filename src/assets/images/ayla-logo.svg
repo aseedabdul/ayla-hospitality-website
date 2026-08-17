@@ -1,0 +1,22 @@
+<svg width="620" height="220" viewBox="0 0 620 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aylaGlow" x1="88" y1="40" x2="510" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9FF75"/>
+      <stop offset="1" stop-color="#DFFF00"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M120 147L66 40H97L142 124L185 40H216L161 147H120Z" fill="white"/>
+    <path d="M232 147V40H267V147H232Z" fill="white"/>
+    <path d="M287 40H320L377 115L434 40H468L392 147H360L287 40Z" fill="white"/>
+    <path d="M92 150C169 200 236 200 312 150" stroke="url(#aylaGlow)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M500 136L470 104L486 98L503 116L529 92L545 100L515 135H500Z" fill="url(#aylaGlow)"/>
+    <path d="M305 68C305 76 298 82 290 82C282 82 276 76 276 68C276 60 282 54 290 54C298 54 305 60 305 68Z" fill="url(#aylaGlow)"/>
+    <path d="M332 88C332 96 325 102 317 102C309 102 303 96 303 88C303 80 309 74 317 74C325 74 332 80 332 88Z" fill="url(#aylaGlow)"/>
+    <path d="M284 101C284 109 277 115 269 115C261 115 255 109 255 101C255 93 261 87 269 87C277 87 284 93 284 101Z" fill="url(#aylaGlow)"/>
+  </g>
+  <g>
+    <text x="55" y="185" fill="white" font-family="Georgia, serif" font-size="64" letter-spacing="18">AYLA</text>
+    <path d="M88 196H530" stroke="#DFFF00" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
